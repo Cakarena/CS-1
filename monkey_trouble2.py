@@ -1,3 +1,8 @@
+##We have two monkeys, a and b. Accept the input telling if each is smiling.## 
+##We are in trouble if they are both smiling or if neither of them is smiling## 
+##Return True if we are in trouble.##
+## So this is a correction over monkey_trouble.py##
+
 monkeyA = input('Is Monkey A smiling?').lower()
 monkeyB = input('Is Monkey B smiling?').lower()
 
