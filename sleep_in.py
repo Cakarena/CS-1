@@ -1,6 +1,8 @@
 ## Write a program to accept Weekday and Vacation values.##
 ## Weekday is True if it is a weekday, and the vacation is True if we are on vacation.## 
 ## We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in.##
+#This is my first attempt, I didn't know about Booleans so this is what I came up with, it works but it's wrong.#
+
 print ("This program tells you whether it's appropriate to sleep in or not. Your working week is Monday to Friday.")
 print ("Any day from Monday to Friday is a 'weekday'")
 x=input("Type 0 if tomorrow is a weekday, 1 if it's the weekend: ")
