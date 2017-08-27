@@ -7,7 +7,7 @@
 def caught_speeding(is_birthday,speed):
 
     if is_birthday == "false":
-        if speed <=cau60:
+        if speed <=60:
             return ("Result 0 - No ticket F")
         elif speed >= 61 and speed <= 80:
             return ("Result 1 -Small ticket F")           
@@ -15,7 +15,7 @@ def caught_speeding(is_birthday,speed):
             return ("Result 2 -Big ticket F") 
 
     elif is_birthday == "true":
-        if speed <65:
+        if speed <=65:
             return ("Result 0 - No ticket T")
         elif speed >= 65 and speed <= 85:
             return ("Result 1 - Small ticket T")
